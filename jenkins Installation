@@ -1,0 +1,17 @@
+Check for java in the server in which we want to install jenkins
+
+java -vversion
+
+If java is not installed, install the java
+
+sudo apt update
+
+sudo apt install openjdk-17-jdk -y
+
+Install jenkins using official website https://www.jenkins.io/doc/book/installing/linux/
+
+After jenkins installation run the below commands
+
+systemctl enable jenkins
+
+systemctl status jenkins
