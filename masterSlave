@@ -1,0 +1,9 @@
+To set-up jenkins master-slave we need to follow the following stpes:
+
+Navigate to "Node" in "Manage Jenkins"
+
+Now select "Add Node" to config the new slave node.
+
+Provide the Name and select Permanent Agent
+
+Now provide the required details as per requirement and establish connect with the slave server which you want to use as slave node by running the generated code after configuring new node.
